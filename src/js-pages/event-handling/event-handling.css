@@ -1,0 +1,240 @@
+
+
+/* Page Header */
+.event-handling-page .page-header {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+
+.event-handling-page .page-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  background: #e2e8f0;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.event-handling-page .page-header h1 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.event-handling-page .page-header p {
+  margin: 0;
+  max-width: 750px;
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Grid */
+.event-handling-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Card */
+.event-handling-card {
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+}
+
+/* Card Header */
+.event-handling-page .card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.event-handling-page .card-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.event-handling-page .card-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.event-handling-page .card-description {
+  margin-bottom: 28px;
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Example Sections */
+.example-section {
+  margin-bottom: 24px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.example-section h3 {
+  margin: 0 0 15px;
+  color: #1e293b;
+  font-size: 17px;
+}
+
+/* Buttons */
+.example-section button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.example-section button:hover {
+  opacity: 0.85;
+}
+
+/* Input */
+.example-section input {
+  width: 100%;
+  max-width: 350px;
+  padding: 11px 13px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.example-section input:focus {
+  border-color: #64748b;
+}
+
+/* Parent / Child */
+.parent-box {
+  padding: 25px;
+  border: 2px dashed #94a3b8;
+  border-radius: 10px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.parent-box p {
+  margin: 0 0 15px;
+  color: #475569;
+  font-weight: 600;
+}
+
+/* Event Delegation */
+.button-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Code Box */
+.event-handling-page .code-box {
+  margin-top: 28px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #0f172a;
+}
+
+.event-handling-page .code-header {
+  padding: 10px 16px;
+  border-bottom: 1px solid #334155;
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.event-handling-page .code-box pre {
+  margin: 0;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.event-handling-page .code-box code {
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: Consolas, Monaco, monospace;
+}
+
+/* Output */
+.event-handling-page .output-box {
+  margin-top: 20px;
+  padding: 16px 18px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .event-handling-page {
+    padding: 30px 20px;
+  }
+
+  .event-handling-page .page-header h1 {
+    font-size: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .event-handling-page {
+    padding: 20px 15px;
+  }
+
+  .event-handling-card {
+    padding: 20px;
+  }
+
+  .event-handling-page .page-header h1 {
+    font-size: 26px;
+  }
+
+  .event-handling-page .card-header h2 {
+    font-size: 21px;
+  }
+
+  .example-section {
+    padding: 16px;
+  }
+
+  .example-section input {
+    margin-right: 0;
+  }
+
+  .button-list {
+    flex-direction: column;
+  }
+
+  .button-list button {
+    width: 100%;
+  }
+}

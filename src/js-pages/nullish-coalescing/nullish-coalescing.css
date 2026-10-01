@@ -1,0 +1,78 @@
+.concept-page {
+  padding: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.concept-header {
+  margin-bottom: 24px;
+}
+
+.concept-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.concept-header p {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.concept-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.card-section + .card-section {
+  margin-top: 28px;
+}
+
+.card-section h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.card-section pre {
+  margin: 0;
+  padding: 18px;
+  background: #111827;
+  color: #f9fafb;
+  border-radius: 8px;
+  overflow-x: auto;
+  line-height: 1.6;
+}
+
+.card-section button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #2563eb;
+  color: #fff;
+}
+
+.card-section button:hover {
+  opacity: 0.9;
+}
+
+.output-box {
+  margin-top: 16px;
+  padding: 16px;
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+
+.output-box strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.output-box pre {
+  padding: 0;
+  background: transparent;
+  color: #111827;
+}
